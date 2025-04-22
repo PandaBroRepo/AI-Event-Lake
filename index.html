@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<div id="home">
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>AI Event Lake</title>
+        <link rel="icon" href="img\AI Icon.png">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    </div>
+    
+    <body>
+    
+        <!-- navbar
+
+Purpose:
+- Navigation bar that allows users to jump to different sections of the webpage
+- Also holds buttons for user settings (dark mode, reduce motion)
+
+    When To Modify:
+    - [ ] Project 4 (REQUIRED FEATURE)
+    - [ ] Project 5 (REQUIRED FEATURE) 
+    - [ ] Project 8 (STRETCH FEATURE) 
+    - [ ] Any time between / after
+    -->
+    <div class="navbar">
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About the Event</a></li>
+        <li><a href="#schedule">Event Schedule</a></li>
+        <li><a href="#links">Links</a></li>
+        <button id="theme-button">Toggle Dark Mode</button>
+        <button id="reduce-motion-button">Reduce Motion</button>
+        </ul>
+    </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+
+        <div class="header-container">
+            <div class="header-item">
+                <img id="header-img" src="img/header Pic.jpg" alt="AI Event Lake Header Image"/>
+            </div>
+            <div class="header-item">
+                <h1>AI Event Lake</h1>
+                <h3>A Simulated Event for AI Enthusiasts Sponsored by PandaBro<br>
+                      (Project for my Web Dev Course)
+                </h3>
+                <button class="header-button" type="button">Event Register</button>
+                <button class="header-button" type="button">See Attendees</button>
+            </div>
+        </div>
+
+        <div id="about">
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>About the Event</h2>
+        <iframe width="550" height="315" src="//player.bilibili.com/player.html?bvid=BV1FHXrYsE5F&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <p>
+           AI event lake is an event for AI enthusiasts.<br> 
+           It included AI conference, AI Hackathon, AI Lecture and much more! <br>
+           Whether you are an student, researcher, developer, recruiter or investor, <br>
+           you are all welcome to join this simultaed event! 
+        </p>
+
+        <h3>What to Expect</h3>
+        <ul>
+            <li> <b>Hackathon:</b> <i>An AI Hackathon focused on AI Agent Building</i></li>
+            <li> <b>Lecture:</b> <i>An AI Lecture focused on Robotics AI</i></li>
+        </ul>
+    </div>
+
+    <div id="schedule">
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>Event Schedule</h2>
+
+        <img alt="Image for AI Hackathon" src="img\AI Pic2.jpg" width="350" height="400"/>
+        <h3>AI Agent Hackathon</h3>
+        <p>A Hackathon focused on building AI Agents that <br>
+           have more people-centered design</p>
+            
+        <img alt="Image for Robotics Lecture" src="img/AI Pic1.jpg" width="450" height="300"/>
+        <h3>AI Lecture Series: Discover Robotics</h3>
+        <p>AI Lecture focused on robotics knowledge for audience with no or minimum robotics background.</p>
+
+    </div>
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+         <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            Interested in Agentic and Robotics AI?  Time to RSVP for the event, AI<br> 
+            enthusiasts! Please input your name and state when RSVP for the<br>
+            event! Hope you will join us soon!
+            
+        </div>
+        <div class="rsvp-participants">
+            <p>✅ PandaBro from Washington has RSVP'd.</p>
+            <p>✅ FinanceBro from Ohio has RSVP'd.</p>
+            <p>✅ TechBro from Washington has RSVP'd.</p>
+            <p id="rsvp-count">🐼 3 people have RSVP'd to this event!</p>
+        </div>
+    </div>
+ 
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="state">Home State:</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <button id="rsvp-button">Submit RSVP</button>
+            </div>
+        </form>
+    </div>
+
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+         <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div class="modal-item"> 
+            <p id="modal-text">✅You are onboard! Thank you for RSVP'ing to AI Event Lake! We can't wait to see you there!</p>
+            <button id="close-modal-button">Close</button> <!-- Add this line for the close button -->
+        </div>
+        <div class="modal-item"> 
+            <img src="img/RSVP_Success.png" alt="RSVP Success Image" width="500" height="300">
+        </div>
+    </div>
+</div>
+
+        <div id="links">
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+<!-- Flexbox container for links -->
+<div class="links-container">
+    <div class="link-item">
+        <a class="block" href="https://www.codepath.org">
+            <article>
+                <h3>CodePath</h3>
+                <p>CodePath Website</p>
+            </article>
+        </a>
+    </div>
+    <div class="link-item">
+        <a class="block" href="https://raise.mit.edu/events/global-ai-hackathon-2025/">
+            <article>
+                <h3>2025 Global AI Hackathon</h3>
+                <p>2025 Global AI Hackathon from MIT</p>
+            </article>
+        </a>
+    </div>
+    <div class="link-item">
+        <a class="block" href="https://www.udemy.com/topic/robotics/free/?srsltid=AfmBOoqGuzuzLFufXIP-vvT96fg93NaRRkISvg2znIVFXHDlDsg04k22">
+            <article>
+                <h3>Udemy Free Robotics Courses</h3>
+                <p>Free Robotics courses on Udemy</p>
+            </article>
+        </a>
+    </div>
+</div>
+
+</div>
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <p id="modal-text">✅ Thanks for RSVPing! We can't wait to see you at the AI Event Lake!</p>
+            <button id="close-modal-button">Close</button> <!-- Add this line -->
+        </div>
+        <div id="modal-item">
+            <img src="img/RSVP_Success.png" alt="RSVP Success Image" width="500" height="300">
+        </div>
+    </div>
+</div>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <div class="footer">
+            <p>&copy; 2025 AI Event Lake. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.codepath.org/about">Learn More</a>
+                <a href="https://www.codepath.org/contact">Email Our Team</a>
+            </div>
+        </div>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="index.js"></script>
+    </body>
+</html>

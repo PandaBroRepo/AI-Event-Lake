@@ -47,10 +47,20 @@ No server setup is required! Just open `index.html` in your preferred browser (C
 | Feature               | Preview                    |
 |-----------------------|----------------------------|
 | 🖼️ Landing Section     | Header with event description and call-to-action buttons |
+![image](https://github.com/user-attachments/assets/9d590165-6d37-4ad3-8228-4e56fcfcaf3b)
+
 | 📆 Event Schedule     | AI Agent Hackathon and Robotics Lecture |
+![image](https://github.com/user-attachments/assets/e493e4b5-79c5-4e6f-8c94-916d8629c7e5)
+
 | 🧾 RSVP Form          | Interactive form with validation and dynamic response |
+![image](https://github.com/user-attachments/assets/a4d4d619-29e2-4c47-9207-3d8c36782b90)
+
 | 🌒 Dark Mode & Reduced Motion | Enhanced accessibility and personalization |
+![image](https://github.com/user-attachments/assets/e0e032e8-2829-45c2-97d8-8c4ad96c6a9a)
+
 | 🎉 Modal Confirmation | Success message with rotating image animation |
+
+![image](https://github.com/user-attachments/assets/c64bb92c-f854-4b2d-a19d-c99a51dcc741)
 
 ---
 

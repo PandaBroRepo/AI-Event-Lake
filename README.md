@@ -9,7 +9,7 @@
 
 ## 🌟 Key Features
 
-- 🎤 **Microphone-inspired RSVP Form** *(simulated)* – Users can RSVP with their name, state, and email.
+- 🎟️ **Interactive RSVP Form** – Users can RSVP with their name, state, and email.
 - 🎨 **Dynamic Theme Support** – Toggle dark mode for a futuristic interface look.
 - 🎬 **Reduced Motion Accessibility** – “Reduce Motion” mode for better accessibility.
 - 📋 **Live RSVP Updates** – See participant count and names update in real-time.
